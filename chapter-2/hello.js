@@ -28,3 +28,45 @@ var account_number_details_id = 104
 
 //Video no.008. JS Data Types
 //Theory based class. see notion
+
+//Video no. 009 JS Basic Number
+var n = 453
+var f = 3.1416
+var nn = Number('45')
+var mm = Number('543.23')
+console.log(nn)
+console.log(Number.parseFloat(nn))
+console.log(Number.parseInt(mm))
+console.log(Number.MAX_VALUE)
+console.log(Number.MIN_VALUE)
+console.log(1/0)
+console.log('abc' * 10)
+
+//010. JS Basic Strings 
+var str ='String'
+var str2 = "String"
+var str3 = `String`
+
+var str4 = String('sakibng')
+var str5 = String(145413543)
+var str6 = String(3.1454235)
+
+console.log(str4, str5, str6 )
+
+// Video no. 011. JS Basic Booleans
+var b1 = true
+var b2 = false
+
+var b3 = Boolean(true)
+var b4 = Boolean(false)
+
+console.log(b3, b4)
+
+//012. JS Null & Undefined 
+
+var abc
+var xyz = null
+console.log(xyz)
+console.log(abc)
+
+
